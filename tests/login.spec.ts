@@ -2,7 +2,7 @@
 import { Page , expect,test,Locator} from "@playwright/test";
 const dataset = JSON.parse(JSON.stringify(require('../utils/TestData.json')))
  
-test.describe.only("Test Case of Login",()=>{
+test.describe.only("Test Case of Login ",()=>{
 
     let page:Page
     test.beforeAll(async({browser})=>{
